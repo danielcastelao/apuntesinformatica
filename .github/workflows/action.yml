@@ -32,7 +32,7 @@ jobs:
       - uses: danielcastelao/apuntesinformatica@main
         with:
           docs-folder: "docs/"
-      - uses: actions/upload-artifact@v1
+      - uses: actions/upload-artifact@v2
         with:
           name: DocumentacionHTML
           path: docs/_build/html/
