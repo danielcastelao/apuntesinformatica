@@ -39,16 +39,16 @@ templates_path = ['_templates']
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
 #
-# source_suffix = ['.rst', '.md']
-source_suffix = '.rst'
+source_suffix = ['.rst', '.md']
+# source_suffix = '.rst'
 
 # The master toctree document.
 master_doc = 'index'
 
 # General information about the project.
-project = 'WordCount'
-copyright = '2018, Harsha'
-author = 'Harsha'
+project = 'apuntesinformatica'
+#copyright = '2022, profesorado'
+author = 'Profesorado'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -112,7 +112,7 @@ html_sidebars = {
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'WordCountdoc'
+htmlhelp_basename = 'ApuntesInformatica'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -138,20 +138,20 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
-latex_documents = [
-    (master_doc, 'WordCount.tex', 'WordCount Documentation',
-     'Harsha', 'manual'),
-]
+#latex_documents = [
+#    (master_doc, 'WordCount.tex', 'WordCount Documentation',
+#     'Harsha', 'manual'),
+#]
 
 
 # -- Options for manual page output ---------------------------------------
 
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
-man_pages = [
-    (master_doc, 'wordcount', 'WordCount Documentation',
-     [author], 1)
-]
+# man_pages = [
+#    (master_doc, 'wordcount', 'WordCount Documentation',
+#     [author], 1)
+#]
 
 
 # -- Options for Texinfo output -------------------------------------------
@@ -159,8 +159,8 @@ man_pages = [
 # Grouping the document tree into Texinfo files. List of tuples
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
-texinfo_documents = [
-    (master_doc, 'WordCount', 'WordCount Documentation',
-     author, 'WordCount', 'One line description of project.',
-     'Miscellaneous'),
-]
+#texinfo_documents = [
+#    (master_doc, 'WordCount', 'WordCount Documentation',
+#     author, 'WordCount', 'One line description of project.',
+#     'Miscellaneous'),
+#]
